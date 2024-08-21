@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag input</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            background-image: url("biblioteca.jpg");
+            background-size: 100%;
+
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    form{
+        width: 400px;
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 20px;
+        margin: auto;
+        background-color: brown;
+
+    }
+    label{
+        margin: 5px;
+        display: block;
+    }
+    input{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 2px solid;
+        border-radius: 3px;
+        box-sizing: border-box;
+     }
+        input[type="submit"]{
+                background-color: blue;
+                color: aliceblue;
+                padding: 10px 20px;
+    
+        }
+    </style>
+    
+    
+    <link rel="stylesheet" href="Biblioteca.css">
+
+    
+</head>
+<body id="1" class="corpopagina">
+    
+    <h1>Biblioteca</h1>
+   
+   <!-- <img src="biblioteca.jpg" alt="Imagem Biblioteca" width="100px">-->
+   
+    <form action="">
+       
+        <label for="nome">Nome:</label>
+        <br>
+        <input type="text" id="nome">
+        <br>
+        <br>
+
+        <label for="Matricula">Matricula:</label>
+        <br>
+        <input type="text" id="Matricula">
+        <br>
+        <br>
+
+        <label for="CPF">CPF:</label>
+        <br>
+        <input type="text" id="CPF">
+        <br>
+        <br>
+
+        <label for="ISBN">ISBN do livro:</label>
+        <br>
+        <input type="text" id="ISBN">
+        <br>
+        <br>
+
+        <label for="Titulo">Titulo do livro:</label>
+        <br>
+        <input type="text" id="Titulo">
+        <br>
+        <br>
+
+        <label for="Autor">Autor do livro:</label>
+        <br>
+        <input type="text" id="Autor">
+        
+        <br>
+        <br>
+
+        <label for="data">Data de emprestimo</label>
+        <br>
+        <input type="date" id="data">
+        <br>
+        <br>
+
+        <label for="devolução">Data de devolução</label>
+        <br>        
+        <input type="date" id="devolução">
+        <br>
+        <br>
+
+        <label for="emprestimo">Dias de emprestimo:</label>
+        <br>
+        <input type="text" id="emprestimo">
+
+        <br>
+        <br>
+
+        <input type="button" value="Salvar">
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+
+
+    </form>
+    
+</body>
+<script>
+    alert('Preencher corretamente.');
+</script>
+</html>
